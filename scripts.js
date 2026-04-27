@@ -5,7 +5,8 @@ document.getElementById("toggle").onclick = () => {
     document.getElementById("titulo").innerText = cadastro ? "Cadastro" : "Login";
     document.querySelector("botton").innerText = cadastro ? "Cadastro" : "Entrar";
     document.getElementById("toggle").innerText = cadastro
-    ? "Já tem conta? Faça Login!"
+    ? "Já tem conta?!"
+    ? "Faça login"
     : "Não tem conta? Cadastre-se!";
     document.getElementById("mensagem").innerHTML = "";
     document.getElementById("form-login").onsubmit= (e) => {
